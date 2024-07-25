@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- mobile design template -->
+    <main>
+        <!--Fixed Header -->
+
+         <header class="header-bg">
+            <nav class="navbar d-flex justify-between align-center">
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="logo">
+                    <img src="./Assets/logo.aa139940.png" alt="" style="width: 100%;">
+                </div>
+                <div class="notification">
+                    <img src="./Assets/icons8-notification-50.png" alt="Notifications" style="width:25px;height: 25px;">
+                </div>
+            </nav>
+            <div class="input-form position-relative">
+                <input type="text" placeholder="search"  id="searchInput" oninput="searchProducts()"  class="input-search"/>
+            </div>
+         </header>
+         <div class="products" id="productContainer"></div>
+         <footer class="footer-bg">
+            <div class="footer d-flex justify-between align-center">
+                <div class="footer-inside-content active">
+                    <img src="./Assets/icons8-search-image-24.png" style="width:20px;height: 20px;">
+                    <p>Search</p>
+                </div>
+                <div class="footer-inside-content">
+                    <img src="./Assets/icons8-clock-24.png"  style="width:20px;height: 20px;">
+                    <p>History</p>
+                </div>
+                <div class="footer-inside-content">
+                    <img src="./Assets/icons8-wardrobe-50.png"  style="width:20px;height: 20px;">
+                    <p>wardrobe</p>
+                </div>
+                <div class="footer-inside-content">
+                    <img src="./Assets/icons8-explore-50.png"  style="width:20px;height: 20px;">
+                    <p>Explore</p>
+                </div>
+                <div class="footer-inside-content">
+                    <img src="./Assets/icons8-male-user-64.png"  style="width:20px;height: 20px;">
+                    <p>Profile</p>
+                </div>
+            </div>
+         </footer>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

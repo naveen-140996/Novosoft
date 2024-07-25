@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:450px){
+    .logo{
+        width:30px;
+    }
+    .position-relative{
+        position: relative;
+    }
+    .mt-20{
+        margin-top:20px;
+    }
+    .d-flex{
+        display: flex;
+    }
+    .justify-between{
+        justify-content: space-between;
+    }
+    .align-center{
+        align-items: center;
+    }
+    .text-center{
+        text-align:center;
+    }
+
+    .hamburger .bar{
+        width: 20px;
+        height: 2px;
+        background-color:#fff;
+        margin:4px 0px;
+    }
+    .header-bg{
+    padding: 20px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    }
+    .input-form{
+        margin-top: 20px;
+    }
+    .input-search{
+        width: 100%;
+        padding: 13px 45px;
+        border-radius: 20px;
+        outline: none;
+        border: 1px solid #cccc;
+    }
+    .input-form::before{
+        content: '';
+        background: url(./Assets/icons8-search-30.png) no-repeat center;
+        width: 26px;
+        height: 28px;
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        z-index: 10;
+    }
+    .input-form::after{
+        content: '';
+        background: url(./Assets/icons8-camera-24.png) no-repeat center;
+        width: 26px;
+        height: 28px;
+        position: absolute;
+        top: 8px;
+        right: 16px;
+    }
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 173px 0px;
+    }
+    
+    .product-card {
+        margin: 20px 2px;
+        padding: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        text-align: center;
+        width: 200px; /* Default width for jewelry */
+    }
+    
+    .product-card img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    .product-wrapper {
+        width: 45%; /* Ensures two cards per row */
+    }
+    .product-card, .big-card, .medium-card {
+        width: 100%;
+    }
+    .product-card.medium-card{
+        height: 100px;
+    }
+    .product-card.medium-card img{
+        height: 70px;
+    
+    }
+    .product-info h2,p{
+        font-size: 12px;
+        text-align: center;
+    }
+    .footer-bg{
+        padding: 20px;
+        text-align: center;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+    }
+    .footer-inside-content.active p{
+        color: #fff;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .footer-inside-content p{
+        color: #000;
+    }
+    header, footer {
+        background-color: #9c9c9c;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        left: 0;
+    }
+    
+    header {
+        top: 0;
+    }
+    
+    footer {
+        bottom: 0;
+        background-color: #9c9c9c;
+        color: #fff;
+    }
+}
